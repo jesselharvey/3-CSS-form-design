@@ -5,5 +5,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <form action="">
+      <div class="column">
+        <div>
+          <label for="firstName">First Name</label>
+          <input id="firstName" type="text" placeholder="Ron" />
+        </div>
+        <div>
+          <label for="lastName">Last Name</label>
+          <input id="lastName" type="text" placeholder="Swanson" />
+        </div>
+        <div>
+          <label for="emailAddress">Email Address</label>
+          <input
+            id="emailAddress"
+            type="text"
+            placeholder="ronswanson@example.com"
+          />
+        </div>
+        <div>
+          <label for="country">Country</label>
+          <select name="" id="country">
+            <option value="" disabled selected>Choose Country</option>
+            <option value="unitedStates">United States</option>
+            <option value="unitedKingdom">United Kingdom</option>
+            <option value="Australia">Australia</option>
+            <option value="China">China</option>
+          </select>
+        </div>
+        <div>
+          <label for="biography">Biography</label>
+          <textarea
+            name="biography"
+            id="biography"
+            cols="30"
+            rows="10"
+            placeholder="Insert your bio here"
+          ></textarea>
+        </div>
+      </div>
+      <div class="column">
+        <div>
+          <label for="phone">Phone Number</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="702-877-1500"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          />
+        </div>
+        <div>
+          <label for="affiliates">Affiliations</label>
+          <textarea
+            name="affiliates"
+            id="affiliates"
+            cols="30"
+            rows="10"
+            placeholder="List of companies or people with whom you are affiliated with."
+          ></textarea>
+        </div>
+        <div>
+          <label for="occupation">Occupation</label>
+          <select name="" id="occupation">
+            <option value="" disabled selected>Choose occupation</option>
+            <option value="transportation">Transportation</option>
+            <option value="hospitality">Hospitality</option>
+            <option value="service">Service</option>
+            <option value="government">Government</option>
+          </select>
+        </div>
+        <div>
+          <label for="catName">Cat's Name</label>
+          <input
+            type="text"
+            id="catName"
+            name="catName"
+            placeholder="Sephiroth"
+          />
+        </div>
+        <div>
+          <label for="favGadget">Favorite gadget</label>
+          <input
+            type="text"
+            id="favGadget"
+            name="favGadget"
+            placeholder="Rope"
+          />
+        </div>
+      </div>
+      <div class="column">
+        <div>
+          <label for="talent">Type of talent</label>
+          <select name="talent" id="talent">
+            <option value="" disabled selected>Choose a talent</option>
+            <option value="music">Playing music</option>
+            <option value="dancing">Dancing</option>
+            <option value="sports">Playing sports</option>
+          </select>
+        </div>
+        <div>
+          <label for="favDrink">Favorite drink</label>
+          <input
+            type="text"
+            id="favDrink"
+            name="favDrink"
+            placeholder="Streamers' bath water"
+          />
+        </div>
+        <div>
+          <label for="power">Your super power</label>
+          <input
+            type="text"
+            id="power"
+            name="power"
+            placeholder="ESPN or something"
+          />
+        </div>
+        <div>
+          <label for="weapon">Weapon of choice</label>
+          <input
+            type="text"
+            id="weapon"
+            name="weapon"
+            placeholder="Steel toe boots"
+          />
+        </div>
+        <div>
+          <label for="comments">Comments</label>
+          <textarea
+            name="comments"
+            id="comments"
+            cols="30"
+            rows="10"
+            placeholder="I hate commenting"
+          ></textarea>
+        </div>
+      </div>
+    </form>
+  </body>
 </html>
