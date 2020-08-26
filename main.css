@@ -1,0 +1,13 @@
+/* form {
+  display: flex;
+} */
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.column {
+  flex-direction: column;
+}
+.column div {
+  display: flex;
+}
