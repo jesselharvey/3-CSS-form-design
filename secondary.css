@@ -33,6 +33,9 @@
   input:focus {
     border: 1.5px solid var(--secondary);
     outline: none;
+    transition-property: border;
+    transition-duration: 0.75s;
+    transition-timing-function: linear;
   }
   select {
     background-color: var(--bg-main);
@@ -45,6 +48,9 @@
   select:focus {
     border: 1.5px solid var(--secondary);
     outline: none;
+    transition-property: border;
+    transition-duration: 0.75s;
+    transition-timing-function: linear;
   }
   textarea {
     background-color: var(--bg-main);
@@ -57,6 +63,9 @@
   textarea:focus {
     border: 1.5px solid var(--secondary);
     outline: none;
+    transition-property: border;
+    transition-duration: 0.75s;
+    transition-timing-function: linear;
   }
   .container {
     display: flex;
